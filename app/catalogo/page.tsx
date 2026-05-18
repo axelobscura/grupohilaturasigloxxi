@@ -18,61 +18,61 @@ const productos = [
     id: 3,
     name: "Toallas Pullman",
     description: "Toalla pullman en color blanco con una cenefa y medida de 40 x 75 cm, con un peso de 140 gr. ",
-    imageUrl: "/productos/gorras.jpg",
+    imageUrl: "/productos/toalla_bano.png",
   },
   {
     id: 4,
     name: "Toallas de Manos",
     description: "Toallas de manos con cenefa,  medidas de 60 x 1.10 cm y peso de 300 gr.",
-    imageUrl: "/productos/gorras.jpg",
+    imageUrl: "/productos/toallas2.png",
   },
   {
     id: 5,
     name: "Toallas de Medio Baño",
     description: "Toalla sin cenefa con medida de 70 x 1.30 cm con peso de 450 gr.",
-    imageUrl: "/productos/gorras.jpg",
+    imageUrl: "/productos/toallas3.png",
   },
   {
     id: 6,
     name: "Toallas de Baño",
     description: "Toalla de baño con cenefa de 80 x 1.50 cm, con peso de 700 gr.",
-    imageUrl: "/productos/gorras.jpg",
+    imageUrl: "/productos/toallas4.png",
   },
   {
     id: 7,
     name: "Toallas de Alberca",
     description: "Toalla de alberca con medida 90 x 1.70 cm peso de 800 gr. ",
-    imageUrl: "/productos/gorras.jpg",
+    imageUrl: "/productos/toalla_bano.png",
   },
   {
     id: 8,
     name: "Salida de Baño",
     description: "Salida de baño para dama en diferentes colores",
-    imageUrl: "/productos/gorras.jpg",
+    imageUrl: "/productos/toalla5.png",
   },
   {
     id: 9,
     name: "Batas de Baño",
     description: "Salida de baño para dama en diferentes colores",
-    imageUrl: "/productos/gorras.jpg",
+    imageUrl: "/productos/bata.png",
   },
   {
     id: 10,
     name: "Playera Polo, Cuello V, cuello redondo",
     description: "Salida de baño para dama en diferentes colores",
-    imageUrl: "/productos/gorras.jpg",
+    imageUrl: "/productos/polo.png",
   },
   {
     id: 11,
     name: "Camisas y Blusas para uniformes",
     description: "Salida de baño para dama en diferentes colores",
-    imageUrl: "/productos/gorras.jpg",
+    imageUrl: "/productos/camisa.png",
   },
   {
     id: 12,
     name: "Chamarras",
     description: "Salida de baño para dama en diferentes colores",
-    imageUrl: "/productos/gorras.jpg",
+    imageUrl: "/productos/chamarra_hombre.png",
   },
 ];
 
@@ -87,7 +87,7 @@ export default function Catalogo() {
           <div className="grid grid-cols-1 sm:grid-cols-4 gap-5 p-5 w-full">
             {productos.map(({ id, name, description, imageUrl }) => (
               <div key={id} className="bg-white rounded-lg shadow-md overflow-hidden">
-                <Image src={imageUrl} alt={name} width={500} height={500} className="w-full h-48 object-cover" />
+                <Image src={imageUrl} alt={name} width={500} height={800} className="w-full object-cover" />
                 <div className="p-4">
                   <h4 className="text-xl font-bold mb-2">{name}</h4>
                   <p className="text-gray-700">{description}</p>
