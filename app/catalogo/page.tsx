@@ -18,7 +18,7 @@ const productos = [
     id: 3,
     name: "Toallas Pullman",
     description: "Toalla pullman en color blanco con una cenefa y medida de 40 x 75 cm, con un peso de 140 gr. ",
-    imageUrl: "/productos/toalla_bano.png",
+    imageUrl: "/productos/toalla8.jpg",
   },
   {
     id: 4,
