@@ -7,7 +7,7 @@ const links = [
   { href: "/", label: "Inicio" },
   { href: "/quienes-somos", label: "Quiénes Somos" },
   { href: "/catalogo", label: "Catálogo de productos" },
-  { href: "/catalogo.pdf", label: "Catálogo Mayoreo" },
+  { href: "/catalogo.pdf", label: "Otros productos" },
   { href: "/contacto", label: "Contacto" },
 ];
 
