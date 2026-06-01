@@ -7,7 +7,7 @@ const links = [
   { href: "/", label: "Inicio" },
   { href: "/quienes-somos", label: "Quiénes Somos" },
   { href: "/catalogo", label: "Catálogo de productos" },
-  { href: "https://cdn.shopify.com/s/files/1/0757/2573/4066/files/Catalogo_Mayoreo_Aureon_Protextil.pdf?v=1777498535", label: "Catálogo Mayoreo" },
+  { href: "/catalogo.pdf", label: "Catálogo Mayoreo" },
   { href: "/contacto", label: "Contacto" },
 ];
 
