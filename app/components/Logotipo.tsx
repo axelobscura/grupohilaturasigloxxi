@@ -8,7 +8,7 @@ export default function Logotipo() {
         alt="Logotipo de Grupo Hilatura Siglo XXI"
         width={200}
         height={100}
-        className="object-contain"
+        className="object-contain h-auto w-auto"
       />
     </div>
   );
